@@ -14,6 +14,7 @@ header {
 #buildingblocks {
     width: 200px;
 }
+
 /* puzzle of blocks */
 #container {
     position: relative;
@@ -31,7 +32,7 @@ header {
     position: top left;
 }
 
-.sbS{
+.sbS {
     top: 165px;
     left: 165px;
 }
@@ -45,17 +46,17 @@ header {
     top: 330px;
 }
 
-.sbN{
+.sbN {
     top: 165px;
 }
 
-.sbP{
+.sbP {
     top: 330px;
     left: 165px;
 }
 
-.sbL{
-    top:330px;
+.sbL {
+    top: 330px;
     left: 330px;
 }
 
@@ -115,6 +116,7 @@ h1 {
     top: 23.5%;
     left: 60%;
 }
+
 /* snapping with no margin */
 .snapMe {
     margin: 0%;
@@ -282,7 +284,7 @@ body {
     left: 15%;
 }
 
-#benHeading{
+#benHeading {
     margin-left: 9%;
 }
 
@@ -303,7 +305,7 @@ body {
     padding-left: 36%;
 }
 
-#numIcons{
+#numIcons {
     padding-left: 10%;
 }
 
@@ -340,7 +342,7 @@ body {
 }
 
 .fourText {
-    color: white;    
+    color: white;
 }
 
 .where {
@@ -379,15 +381,14 @@ body {
     }
 }
 
-.animate-on-scroll{
+.animate-on-scroll {
     opacity: 0;
     transform: translate (-300px);
     transition: all 0.4s ease-out;
     transition-delay: 0.2s;
 }
 
-.animate{
+.animate {
     opacity: 1;
     transform: translateX(0);
 }
-
